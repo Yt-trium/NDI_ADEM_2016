@@ -11,6 +11,11 @@
 	overflow: hidden;
 }
 
+html
+{
+	overflow: scroll;
+}
+
 @font-face 
 {
 font-family: "Cabin";
@@ -100,4 +105,26 @@ li a
 li a:hover 
 {
     background-color: #111111;
+}
+
+#social
+{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: space-between;
+}
+
+#social .twitter-timeline
+{
+	width: 50%;
+	justify-content: center;
+	flex: 1;
+}
+
+#social .facebook-timeline
+{
+	width: 50%;
+	justify-content: center;
+	flex: 1;
 }
