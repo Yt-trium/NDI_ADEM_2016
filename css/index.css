@@ -137,7 +137,8 @@ li a:hover
 	height: 3vw;
 	float: left;
 	font-family: "Cabin";
-	text-align: right;	
+	text-align: right;
+	font-size: 1.2vw;
 }
 #map_form form input[type="submit"]
 {
@@ -160,25 +161,71 @@ li a:hover
 	width: 100%;
 	display: flex;
 	flex-direction: row;
-	flex-wrap: space-between;
+	flex-wrap: center;
 }
 
 #social .twitter-timeline
 {
-	width: 50%;
-	justify-content: center;
-	flex: 1;
+	align-self: center;
+	padding-top:0;
+	margin-top:0;
+	float: top;
 }
 
-#social .facebook-timeline
+.facebook-timeline
 {
+	align-self: center;
+	padding-top:0;
+	margin-top:0;
+	float: top;
 }
 
 #facebook
 {
+	margin-top: 7vw;
 	width: 50%;
 	display: flex;
 	flex-direction: column;
-	flex-wrap: space-between;
+	flex-wrap: center;
+	margin-bottom: 3vw;
 }
 
+#twitter
+{
+	margin-top: 7vw;
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: center;
+}
+
+footer
+{
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: row;
+	align-content: center;
+	background-color: #C9C9C9;
+	box-shadow: 0px 20px 100px #A6A6A6 inset;
+}
+
+footer h1
+{
+	font-size: 1.5vw;
+	font-family: "Cabin";
+	font-weight: bold;
+	color: #454545;
+	margin-left: 20%;
+	margin-top: 3vw;
+	margin-bottom:3vw;
+}
+
+footer p
+{
+	font-size: 1.5vw;
+	font-family: "Cabin";
+	margin-left: 7vw;
+	margin-top: 5vw;
+	color: #7D7D7D;
+}
