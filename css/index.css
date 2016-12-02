@@ -108,7 +108,6 @@ li a:hover
     background-color: #111111;
 }
 
-<<<<<<< HEAD
 #map_form
 {
 	display: flex;
@@ -155,7 +154,7 @@ li a:hover
 {
 	background-color: #2CBFBF;
 }
-=======
+
 #social
 {
 	width: 100%;
@@ -182,4 +181,4 @@ li a:hover
 	flex-direction: column;
 	flex-wrap: space-between;
 }
->>>>>>> 2e63229ba0c1d35f27789620940c6484e592da33
+
